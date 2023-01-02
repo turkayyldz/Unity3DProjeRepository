@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 5043459407912204674}
   - component: {fileID: 6598997686457557072}
   - component: {fileID: 7207499960243925869}
+  - component: {fileID: 9032894138330894561}
   m_Layer: 0
   m_Name: StartFloor
   m_TagString: Untagged
@@ -192,3 +193,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &9032894138330894561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2456164087848143877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2304ebeaf7c10c4f80dafadf8409579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
