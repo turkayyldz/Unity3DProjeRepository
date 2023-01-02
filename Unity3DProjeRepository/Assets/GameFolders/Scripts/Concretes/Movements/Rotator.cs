@@ -14,6 +14,10 @@ namespace Unity3DProjeRepository.Movements
             _playerController = playerController;
             _rigidbody = playerController.GetComponent<Rigidbody>();
         }
+        public void FixedUpdate()
+        {
+
+        }
     }
 }
 
