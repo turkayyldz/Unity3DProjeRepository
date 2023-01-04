@@ -20,7 +20,7 @@ namespace Unity3DProjeRepository.Controllers
             {
                 _finishFireWork.gameObject.SetActive(true);
                 _finisLight.gameObject.SetActive(true);
-
+                GameManager.Instance.MissionSucced();
             }
             else
             {
