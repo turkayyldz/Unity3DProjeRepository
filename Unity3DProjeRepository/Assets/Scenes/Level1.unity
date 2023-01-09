@@ -226,10 +226,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 4441519467251447918, guid: 113f7c740a1fa2141b36d8edb9490077, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8186681441104748487, guid: 113f7c740a1fa2141b36d8edb9490077, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -348,7 +344,7 @@ Transform:
   - {fileID: 8003661259856998821}
   - {fileID: 705507995}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &651286626
 PrefabInstance:
@@ -630,7 +626,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9207575832602710730, guid: 85bc88aec0e3ba542b71067666644034, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9207575832602710730, guid: 85bc88aec0e3ba542b71067666644034, type: 3}
       propertyPath: m_LocalPosition.x

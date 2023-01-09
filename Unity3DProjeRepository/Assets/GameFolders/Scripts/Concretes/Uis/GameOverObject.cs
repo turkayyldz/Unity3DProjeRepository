@@ -12,7 +12,7 @@ namespace Unity3DProjeRepository.Uis
 
         private void Awake()
         {
-            if (_gameOverPanel)
+            if (_gameOverPanel.activeSelf)
             {
                 _gameOverPanel.SetActive(false);
             }
@@ -32,7 +32,7 @@ namespace Unity3DProjeRepository.Uis
         }
         private void HandleOnGameOver()
         {
-            if (_gameOverPanel.activeSelf)
+            if (!_gameOverPanel.activeSelf)
             {
                 _gameOverPanel.SetActive(true);
             }

@@ -12,6 +12,8 @@ namespace Unity3DProjeRepository.Managers
         public event System.Action OnGameOver;
         public event System.Action OnMissionSucced;
         public static GameManager Instance { get; private set; }
+        public object HandleOnMissionSucced { get; internal set; }
+
         private void Awake()
         {
             SingletonThisGameObject();
