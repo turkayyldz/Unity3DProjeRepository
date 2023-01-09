@@ -23,6 +23,7 @@ namespace Unity3DProjeRepository.Controllers
         bool _canForceUp;
         float _leftRight;
 
+        public bool CanMove => _canMove;
         public float TurnSpeed => _turnSpeed;
         public float Force => _force;
         private void Awake()

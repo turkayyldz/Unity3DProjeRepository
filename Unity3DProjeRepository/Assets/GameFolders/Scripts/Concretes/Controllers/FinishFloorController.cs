@@ -14,7 +14,7 @@ namespace Unity3DProjeRepository.Controllers
         private void OnCollisionEnter(Collision other)
         {
             PlayerController player = other.collider.GetComponent<PlayerController>();
-            if (player == null) return;
+            if (player == null|| !player.CanMove) return;
             // üstten aþþaðýya dokunmasýný saðlýyor.
             if (other.GetContact(0).normal.y==-1)
             {
