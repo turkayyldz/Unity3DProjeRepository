@@ -1,8 +1,8 @@
 using UnityEngine;
 using Unity3DProjeRepository.Managers;
+using Unity3DProjeRepository.Controllers;
 
-
-namespace Unity3DProjeRepository.Controllers
+namespace Unity3DProjeRepository.Abstracts.Controllers
 {
     public abstract class WallController : MonoBehaviour
     {

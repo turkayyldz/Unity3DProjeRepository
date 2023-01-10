@@ -1,18 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity3DProjeRepository.Abstracts.Controllers;
 
-public class Static : MonoBehaviour
+
+namespace Unity3DProjeRepository.Controllers
 {
-    // Start is called before the first frame update
-    void Start()
+    public class StaticWallController : WallController
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
+
